@@ -1,0 +1,11 @@
+# OSX DS Store
+*.DS_Store
+
+# IPython Notebook
+*.ipynb_checkpoints
+
+# Data folder (Not sharing per websites terms of service)
+*Data/
+
+# My AWS Project Key 
+Beer-DB.pem
