@@ -39,3 +39,20 @@ Here are the general steps I took to accomplish this task.
 
 4. Make Recommendations
       - The final result of this model is a notebook with a single class I can use to easily search my data and make recommendations.  (6-Recommender.ipynb)[./6-Recommender.ipynb]
+
+
+
+
+### Files and Folders
+- [Other-Files](./Other-Files) : Contains a few iPython notebooks and `.py` files i used for project experimentation.
+- [0-Beer-Engine-AWS-Notes](./0-Beer-Engine-AWS-Notes.ipynb) : Notes for setting up scrapers and DB on AWS.
+- [1-Beer-Scraper](./1-Beer-Scraper.ipynb) : Example of how scrapers were set up.
+- [2-Beer-Cleaning-test](./2-Beer-Cleaning-test.ipynb) : Initial cleaning of data.
+- [3-Exploratory-Data-Analysis](./3-Exploratory-Data-Analysis.ipynb) : Actually more cleaning of data.
+- [5.1-CorrectedText-AllWords](./5.1-CorrectedText-AllWords.ipynb)  : Modeling on all words via count vectorization.
+- [5.2-CorrectedText-DescriptiveWords](./5.2-CorrectedText-DescriptiveWords.ipynb) : Modeling on only descriptive words via count vectorization.
+- [5.3-CorrectedText-AllWords-SVD](./5.3-CorrectedText-AllWords-SVD.ipynb): Modeling on all words via single value decomposition on count vectorization.
+- [5.4-CorrectedText-DescriptiveWords-SVD](./5.4-CorrectedText-DescriptiveWords-SVD.ipynb): Modeling only descriptive words via single value decomposition on count vectorization.
+- [6-Recommender](./6-Recommender.ipynb) : Notebook I can use easily for future recommendations.
+- [recommender](./recommender.py) : Class object for recommendations in the future.
+- Data : You've probably noticed that this is not available.  Given that this data is for individual use and was probably not suppose to be scraped, I'm not going to make it freely available.  
